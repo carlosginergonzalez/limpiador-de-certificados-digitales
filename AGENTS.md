@@ -21,8 +21,8 @@ Aplicación **Windows Forms en C#**, igual que `FacturasNas` (proyecto EMAIL):
 | Pieza | Ruta |
 | --- | --- |
 | Código | `src\*.cs` |
-| Compilar | `build.cmd` → `bin\LimpiarCertificados.exe` |
-| Lanzar | `LimpiarCertificados.cmd` o `bin\LimpiarCertificados.exe` |
+| Compilar | `build.cmd` → `bin\LimpiadorCertificados.exe` |
+| Lanzar | `LimpiadorCertificados.cmd` o `LimpiadorCertificados.exe` |
 | Compilador | `csc.exe` (.NET Framework 4.x), WinForms |
 
 Namespace: `AsesoriaColon.LimpiarCertificados`.  
@@ -32,7 +32,7 @@ No cambiar a Python/PowerShell como app principal salvo que el usuario lo pida. 
 
 ## Flujo operativo
 
-1. Abrir `LimpiarCertificados.exe`.
+1. Abrir `LimpiadorCertificados.exe`.
 2. Elegir ubicación (`CurrentUser` / `LocalMachine`) y almacén (`My`, `Root`, `CA`, …). Por defecto: **CurrentUser / My**.
 3. Actualizar lista; opcionalmente filtrar solo caducados o marcar caducados.
 4. **Marcar los que NO se necesitan** (los no marcados se conservan).

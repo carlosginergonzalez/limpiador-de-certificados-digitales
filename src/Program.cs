@@ -24,7 +24,7 @@ namespace AsesoriaColon.LimpiarCertificados
                     File.WriteAllText(log, ex.ToString());
                 }
                 catch { }
-                MessageBox.Show(ex.ToString(), "Limpiar certificados - error al abrir",
+                MessageBox.Show(ex.ToString(), "Limpiador de certificados digitales - error al abrir",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

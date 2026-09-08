@@ -32,7 +32,7 @@ namespace AsesoriaColon.LimpiarCertificados
 
         public MainForm()
         {
-            Text = "Certificados - Limpiar instalados";
+            Text = "Limpiador de certificados digitales";
             StartPosition = FormStartPosition.CenterScreen;
             MinimumSize = new Size(860, 560);
             Size = new Size(1024, 680);
@@ -397,7 +397,7 @@ namespace AsesoriaColon.LimpiarCertificados
         void ShowAbout()
         {
             MessageBox.Show(this,
-                "Certificados - Limpiar instalados\n\n" +
+                "Limpiador de certificados digitales\n\n" +
                 AppConfig.Description + "\n\n" +
                 "Carlos Giner Gonzalez\nVersion 1.0",
                 "Acerca de",

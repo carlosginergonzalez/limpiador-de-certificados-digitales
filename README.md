@@ -1,4 +1,4 @@
-# Aplicación para borrar certificados digitales instalados en el ordenador
+# Limpiador de certificados digitales
 
 Programa para **Windows** que lista los certificados digitales de tu usuario, te deja marcar los que no necesitas y **eliminarlos** de forma controlada. Los no marcados se conservan.
 
@@ -10,10 +10,10 @@ Diseñado por **Carlos Giner Gonzalez**.
 
 | | |
 | --- | --- |
-| **Última versión** | [Releases](https://github.com/carlosginergonzalez/aplicacion-borrar-certificados-digitales-instalados/releases/latest) |
-| **Ejecutable** | `LimpiarCertificados.exe` (incluido en la release) |
+| **Última versión** | [Releases](https://github.com/carlosginergonzalez/limpiador-de-certificados-digitales/releases/latest) |
+| **Ejecutable** | `LimpiadorCertificados.exe` (incluido en la release) |
 
-1. Entra en **Releases** y descarga `LimpiarCertificados.exe`.
+1. Entra en **Releases** y descarga `LimpiadorCertificados.exe`.
 2. Ejecútalo (no requiere instalación).
 3. Si Windows SmartScreen avisa, elige *Más información* → *Ejecutar de todas formas* (es software local sin instalador firmado).
 
@@ -45,7 +45,7 @@ También puedes clonar el repositorio y usar el `.exe` de la carpeta raíz o `bi
 build.cmd
 ```
 
-Genera `bin\LimpiarCertificados.exe` y una copia en la raíz del proyecto. Icono en `assets\app.ico`.
+Genera `bin\LimpiadorCertificados.exe` y una copia en la raíz del proyecto. Icono en `assets\app.ico`.
 
 ---
 

@@ -6,6 +6,13 @@ Convención: el agente actualiza este fichero de forma periódica. Si crece dema
 
 ---
 
+## [2026-09-08] — Nombre: Limpiador de certificados digitales
+
+### Cambiado
+- La aplicación pasa a llamarse **Limpiador de certificados digitales** (ventana, ensamblado, `LimpiadorCertificados.exe`, README y repositorio GitHub).
+
+---
+
 ## [2026-09-08] — Publicación en GitHub para descarga
 
 ### Cambiado

@@ -2,7 +2,7 @@
 setlocal
 set FW=%SystemRoot%\Microsoft.NET\Framework64\v4.0.30319
 if not exist "%FW%\csc.exe" set FW=%SystemRoot%\Microsoft.NET\Framework\v4.0.30319
-set OUT=%~dp0bin\LimpiarCertificados.exe
+set OUT=%~dp0bin\LimpiadorCertificados.exe
 set ICO=%~dp0assets\app.ico
 if not exist "%~dp0bin" mkdir "%~dp0bin"
 if not exist "%ICO%" (
@@ -11,7 +11,9 @@ if not exist "%ICO%" (
 )
 "%FW%\csc.exe" /nologo /codepage:65001 /utf8output /target:winexe /platform:anycpu /optimize+ /win32icon:"%ICO%" /out:"%OUT%" /r:"%FW%\System.Windows.Forms.dll" /r:"%FW%\System.Drawing.dll" /r:"%FW%\System.Security.dll" /r:"%FW%\System.Core.dll" "%~dp0src\*.cs"
 if errorlevel 1 exit /b 1
-copy /Y "%OUT%" "%~dp0LimpiarCertificados.exe" >nul
+copy /Y "%OUT%" "%~dp0LimpiadorCertificados.exe" >nul
+if exist "%~dp0LimpiarCertificados.exe" del /Q "%~dp0LimpiarCertificados.exe"
+if exist "%~dp0bin\LimpiarCertificados.exe" del /Q "%~dp0bin\LimpiarCertificados.exe"
 echo OK %OUT%
-echo OK %~dp0LimpiarCertificados.exe
+echo OK %~dp0LimpiadorCertificados.exe
 endlocal
