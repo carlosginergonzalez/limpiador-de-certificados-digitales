@@ -26,7 +26,7 @@ Aplicación **Windows Forms en C#**, igual que `FacturasNas` (proyecto EMAIL):
 | Compilador | `csc.exe` (.NET Framework 4.x), WinForms |
 
 Namespace: `AsesoriaColon.LimpiarCertificados`.  
-Descripción: «Robot diseñado por Carlos Giner Gonzalez…». Empresa: Asesoría Colón.
+Descripción: «Robot diseñado por Carlos Giner Gonzalez…».
 
 No cambiar a Python/PowerShell como app principal salvo que el usuario lo pida. Scripts auxiliares sí, si ayudan.
 

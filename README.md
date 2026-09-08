@@ -2,7 +2,7 @@
 
 Programa para **Windows** que lista los certificados digitales de tu usuario, te deja marcar los que no necesitas y **eliminarlos** de forma controlada. Los no marcados se conservan.
 
-Diseñado por **Carlos Giner Gonzalez** (Asesoría Colón).
+Diseñado por **Carlos Giner Gonzalez**.
 
 ---
 

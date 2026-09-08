@@ -399,7 +399,7 @@ namespace AsesoriaColon.LimpiarCertificados
             MessageBox.Show(this,
                 "Certificados - Limpiar instalados\n\n" +
                 AppConfig.Description + "\n\n" +
-                "Asesoria Colon\nVersion 1.0",
+                "Carlos Giner Gonzalez\nVersion 1.0",
                 "Acerca de",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
