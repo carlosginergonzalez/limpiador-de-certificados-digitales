@@ -6,6 +6,13 @@ Convención: el agente actualiza este fichero de forma periódica. Si crece dema
 
 ---
 
+## [2026-09-08] — Repositorio en GitHub
+
+### Añadido
+- Proyecto subido a GitHub (privado): https://github.com/carlosginergonzalez/robot-limpiar-certificados-instalados-en-el-pc
+
+---
+
 ## [2026-09-08] — Sin modo simulación
 
 ### Eliminado
