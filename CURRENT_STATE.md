@@ -27,7 +27,9 @@ Permitir revisar certificados digitales del PC, marcar los que no se necesitan y
 ## Configuración vigente
 
 - Ruta: `C:\CURSOR\ROBOT LIMPIAR CERTIFICADOS INSTALADOS EN EL PC`
-- Herramienta: `bin\LimpiarCertificados.exe` — compilar con `build.cmd`, lanzar con `LimpiarCertificados.cmd`
+- Herramienta: `LimpiarCertificados.exe` (raíz y `bin\`) — compilar con `build.cmd`
+- GitHub (público): https://github.com/carlosginergonzalez/aplicacion-borrar-certificados-digitales-instalados
+- Descarga: Releases → `LimpiarCertificados.exe`
 - Icono: `assets\app.ico` (inspirado en FNMT; incrustado en el exe)
 - Stack: C# / WinForms / `csc.exe` (.NET Framework 4.x), mismo patrón que el robot de facturas Gmail→NAS
 - Almacén por defecto: `CurrentUser` / `My`

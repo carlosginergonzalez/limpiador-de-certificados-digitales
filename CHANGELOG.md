@@ -6,10 +6,20 @@ Convención: el agente actualiza este fichero de forma periódica. Si crece dema
 
 ---
 
+## [2026-09-08] — Publicación en GitHub para descarga
+
+### Cambiado
+- Repositorio público renombrado a `aplicacion-borrar-certificados-digitales-instalados`.
+- Descripción, temas, README, licencia y release con `LimpiarCertificados.exe` para descarga.
+
+URL: https://github.com/carlosginergonzalez/aplicacion-borrar-certificados-digitales-instalados
+
+---
+
 ## [2026-09-08] — Repositorio en GitHub
 
 ### Añadido
-- Proyecto subido a GitHub (privado): https://github.com/carlosginergonzalez/robot-limpiar-certificados-instalados-en-el-pc
+- Proyecto subido a GitHub: https://github.com/carlosginergonzalez/aplicacion-borrar-certificados-digitales-instalados
 
 ---
 
