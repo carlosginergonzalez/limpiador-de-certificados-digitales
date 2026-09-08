@@ -1,0 +1,9 @@
+.vs/
+*.user
+*.suo
+*.pdb
+obj/
+startup_error.txt
+last_run.txt
+Thumbs.db
+Desktop.ini
